@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset
-day_df = pd.read_csv("./dashboard/main-data.csv")
+day_df = pd.read_csv("./main-data.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
 # Sidebar Filters
