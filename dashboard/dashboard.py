@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy
 
 # Load dataset
 day_df = pd.read_csv("./dashboard/main-data.csv")
